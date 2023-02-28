@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DFF3FB;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DetailProduitController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dae2ea" height="301.0" layoutX="90.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="417.0" />
+      <Label layoutX="105.0" layoutY="56.0" prefHeight="31.0" prefWidth="194.0" text="Nom du produit" textFill="#20b20ce1">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="120.0" prefWidth="80.0" text="prix" textFill="#20b20ce1">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="188.0" prefHeight="24.0" prefWidth="121.0" text="description" textFill="#20b20ce1">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelnomprix" layoutX="286.0" layoutY="123.0" text="Label" />
+      <Label layoutX="349.0" layoutY="123.0" text="dt" />
+      <Label fx:id="labeldescription" layoutX="284.0" layoutY="191.0" text="Label" />
+      <Label fx:id="no" layoutX="298.0" layoutY="63.0" text="Label" />
+   </children>
+</AnchorPane>
