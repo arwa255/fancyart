@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AcceuilController">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="733.0" layoutX="10.0" layoutY="10.0">
+         <image>
+            <Image url="@wwww.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" layoutX="184.0" layoutY="135.0" mnemonicParsing="false" onAction="#Back" prefHeight="70.0" prefWidth="159.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Front" layoutX="401.0" layoutY="135.0" mnemonicParsing="false" onAction="#Front" prefHeight="70.0" prefWidth="159.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="FRONT">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
