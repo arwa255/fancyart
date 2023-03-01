@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="605.0" prefWidth="1047.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ModifierReclamationController">
+   <children>
+      <VBox layoutX="-2.0" prefHeight="762.0" prefWidth="217.0" style="-fx-background-color: #000000;" />
+      <Label alignment="CENTER" layoutX="450.0" layoutY="14.0" prefHeight="46.0" prefWidth="308.0" text="Modifier Réclamation" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="309.0" layoutY="166.0" prefHeight="23.0" prefWidth="113.0" text="Type">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="251.0" layoutY="367.0" prefHeight="28.0" prefWidth="230.0" text="Message De Réclamation">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="type" layoutX="495.0" layoutY="167.0" prefHeight="25.0" prefWidth="241.0" />
+      <TextField fx:id="messagerec" layoutX="495.0" layoutY="243.0" prefHeight="276.0" prefWidth="516.0" />
+      <Button layoutX="747.0" layoutY="562.0" mnemonicParsing="false" onAction="#updaterec" prefHeight="33.0" prefWidth="131.0" text="Modifier Réclamation" />
+      <Button layoutX="901.0" layoutY="562.0" mnemonicParsing="false" onAction="#annuler" prefHeight="33.0" prefWidth="113.0" text="Voir Réclamations" />
+   </children>
+</AnchorPane>

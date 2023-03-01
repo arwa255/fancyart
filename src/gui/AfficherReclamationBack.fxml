@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="762.0" prefWidth="1290.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AfficherReclamationBackController">
+   <children>
+      <VBox layoutX="-2.0" prefHeight="762.0" prefWidth="215.0" style="-fx-background-color: #000000;" />
+      <ScrollPane layoutX="215.0" layoutY="149.0" prefHeight="611.0" prefWidth="1072.0">
+         <content>
+            <VBox fx:id="Vboxlivraison" prefHeight="599.0" prefWidth="1067.0" />
+         </content></ScrollPane>
+      <HBox layoutX="216.0" layoutY="112.0" prefHeight="37.0" prefWidth="1063.0" spacing="10.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="150.0" text="Type" translateY="10.0">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="20.0" prefWidth="159.0" text="Texte De Reclamation" translateX="200.0" translateY="10.0">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="148.0" text="Reponse" translateX="430.0" translateY="10.0">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="137.0" text="Supprimer" translateX="430.0" translateY="10.0">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
