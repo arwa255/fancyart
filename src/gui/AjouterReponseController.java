@@ -7,6 +7,7 @@ package gui;
 
 import entities.Reclamation;
 import entities.Reponse;
+import static gui.ModifierReclamationController.id;
 import services.ReponseService;
 import java.net.URL;
 import java.sql.SQLException;
@@ -18,6 +19,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.TextField;
 import static javax.swing.JOptionPane.showMessageDialog;
+import services.ReclamationService;
 
 /**
  * FXML Controller class
@@ -27,7 +29,8 @@ import static javax.swing.JOptionPane.showMessageDialog;
 public class AjouterReponseController implements Initializable {
 
     ReponseService Rs = new ReponseService(); 
-    
+    Reclamation Rec = new Reclamation();
+    ReclamationService Rt = new ReclamationService();
     
     @FXML
     private TextField messagerep;
@@ -50,7 +53,7 @@ public class AjouterReponseController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        Rec=Rt.TrouverById(id);
     }    
 
     @FXML
@@ -59,9 +62,9 @@ public class AjouterReponseController implements Initializable {
                    Reponse R = new Reponse();
 
            R.setMessage_rep(messagerep.getText());
-           
-        
-           
+            R.setId_reclamation(Rec.getId_reclamation());
+                   System.out.println(R.getId_reclamation());
+           Rs.ajouter(R);
           
            if(messagerep.getText().isEmpty() )
            {

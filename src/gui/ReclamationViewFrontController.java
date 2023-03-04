@@ -45,6 +45,7 @@ public class ReclamationViewFrontController implements Initializable {
 
     @FXML
     private void UpdateLivreur(ActionEvent event) {
+        System.out.println(recla.getId_reclamation());
          ModifierReclamationController.getIdd(recla);
          try {
            
@@ -80,7 +81,8 @@ public class ReclamationViewFrontController implements Initializable {
 
       reclamation.setText(R.getMessage_rec());
       type.setText(R.getType());
-      reponse.setText(R.getStatut());
+        reponse.setText(R.getStatut());
+      
 
       recla=R;
 

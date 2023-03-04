@@ -2,6 +2,22 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/test/Client.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/services/ReclamationService.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/AjouterReclamationController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/ModifierReclamationController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/AjouterReponseController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/ReclamationViewBackController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/ModifierReponseController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/entities/Reclamation.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/test/Admin.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/AfficherReclamationFrontController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/services/ReponseService.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/ReclamationViewFrontController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/AfficherReclamationBackController.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/utils/MyDB.java</file>
+            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/entities/Reponse.java</file>
+        </group>
     </open-files>
 </project-private>

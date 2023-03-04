@@ -93,8 +93,8 @@ return ok;
             
             R.setId_reclamation(rs.getInt("id_reclamation"));
             R.setMessage_rec(rs.getString("message_rec"));
-            R.setStatut(rs.getString("statut"));
-             R.setType(rs.getString("type"));
+            R.setType(rs.getString("statut"));
+             R.setStatut(rs.getString("type"));
             
             
             

@@ -29,6 +29,7 @@ Connection cnx;
     }
     @Override
     public void ajouter(Reponse t) throws SQLException {
+       // System.out.println(t.getId_reclamation());
           String req = "INSERT INTO reponse (id_reclamation, message_rep, date_rep) VALUES("
                 + "'" + t.getId_reclamation() + "','" + t.getMessage_rep() + "','" + t.getDate_rep() + "'" + ")";
         Statement st = cnx.createStatement();

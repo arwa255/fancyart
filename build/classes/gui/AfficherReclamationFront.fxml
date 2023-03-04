@@ -56,19 +56,16 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button alignment="CENTER" layoutX="394.0" layoutY="55.0" mnemonicParsing="false" onAction="#ChercherButton" prefHeight="37.0" prefWidth="38.0" style="-fx-background-radius: 100; -fx-background-color: #32CD32;">
-         <graphic>
-            <ImageView fitHeight="39.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/loupe.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
+      <Button alignment="CENTER" layoutX="394.0" layoutY="55.0" mnemonicParsing="false" onAction="#ChercherButton" prefHeight="50.0" prefWidth="48.0" style="-fx-background-radius: 100; -fx-background-color: #32CD32;" translateX="30.0" />
       <Label layoutX="979.0" layoutY="60.0" text="Ajouter Reclamation">
          <font>
             <Font name="System Bold" size="18.0" />
          </font></Label>
-      <TextField fx:id="rechercher" layoutX="231.0" layoutY="61.0" promptText="recherche avec type" />
+      <TextField fx:id="rechercher" layoutX="216.0" layoutY="63.0" promptText="recherche avec type" translateX="10.0" />
+      <ImageView fitHeight="26.0" fitWidth="34.0" layoutX="435.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/loupe.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

@@ -11,10 +11,10 @@ import java.sql.SQLException;
 
 /**
  *
- * @author DELL
+ * @author hp
  */
 public class MyDB {
-      String url = "jdbc:mysql://localhost:3306/fancyart";
+      String url = "jdbc:mysql://localhost:3306/oneway1";
     String username = "root";
     String password = "";
 

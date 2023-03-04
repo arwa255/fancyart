@@ -3,10 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/entities/Reclamation.java</file>
-            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/Afficher_reclamationController.java</file>
-            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/gui/ReclamationController.java</file>
-            <file>file:/C:/Users/DELL/Desktop/gestion_rec_et_rep/src/entities/Reponse.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/test/reponse.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/AjouterReponseController.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/services/ReponseService.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/entities/Reclamation.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/ReponseviewController.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/SousBackOfficeController.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/services/ReclamationService.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/AfficherReponseBackController.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/ReponseView2Controller.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/AfficherReclamationBackController.java</file>
+            <file>file:/C:/Users/amens/Downloads/gestion_rec_et_rep/gestion_rec_et_rep/src/gui/BackOfficeController.java</file>
         </group>
     </open-files>
 </project-private>

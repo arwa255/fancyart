@@ -18,21 +18,21 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author DELL
+ * @author hp
  */
 public class reponse extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-      try {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/afficher_reponse.fxml"));
-        Parent root = loader.load();
-        Scene scene = new Scene(root , 1100 , 700);
+               try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/BackOffice.fxml"));
+        Parent root1 = loader.load();
+        Scene scene1 = new Scene(root1 , 1400 , 700);
        
-        primaryStage.setTitle("Ajouter Reponse ");
-        primaryStage.setScene(scene);
+        primaryStage.setTitle("Ajouter reponse");
+        primaryStage.setScene(scene1);
         primaryStage.show();
- }
+    }
         catch (IOException ex) {
             System.out.println("error" + ex.getMessage());
         }

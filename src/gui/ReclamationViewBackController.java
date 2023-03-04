@@ -36,6 +36,7 @@ public class ReclamationViewBackController implements Initializable {
     
      Reclamation recla = new Reclamation();
      ReclamationService Rs = new ReclamationService();
+     AjouterReponseController ajouterReponseController =new AjouterReponseController();
      
      
     /**
@@ -74,7 +75,7 @@ public class ReclamationViewBackController implements Initializable {
 
     @FXML
     private void Repondre(ActionEvent event) {
-        
+        ajouterReponseController.getIdReclamation(recla);
          try {
         
             FXMLLoader loader = new FXMLLoader(getClass().getResource("AjouterReponse.fxml"));

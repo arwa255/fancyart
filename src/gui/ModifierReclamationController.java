@@ -15,6 +15,7 @@ import entities.Reclamation;
 import java.sql.SQLException;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ComboBox;
 import static javax.swing.JOptionPane.showMessageDialog;
 import services.ReclamationService;
 /**
@@ -51,7 +52,7 @@ public class ModifierReclamationController implements Initializable {
         // TODO
         
          Rec=Rs.TrouverById(id);
-         type.setText(Rec.getType());
+         type.setText(Rec.getStatut());
          messagerec.setText(Rec.getMessage_rec());
         
         
@@ -62,7 +63,8 @@ public class ModifierReclamationController implements Initializable {
         
               try {
            Reclamation R = new Reclamation();
-
+           R.setId_reclamation(Rec.getId_reclamation());
+                  System.out.println(R.getId_reclamation());
            R.setType(type.getText());
            R.setMessage_rec(messagerec.getText());
            R.setStatut("En Cours");
