@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Ajouter_userController">
+   <children>
+      <Pane fx:id="ajouter_user" layoutX="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="756.0">
+         <children>
+            <Label fx:id="nom" layoutX="79.0" layoutY="135.0" text="Nom" />
+            <Label fx:id="prenom" layoutX="79.0" layoutY="193.0" text="Prenom" />
+            <Label fx:id="mdp" layoutX="79.0" layoutY="243.0" text="Mot de passe" />
+            <Label fx:id="adresse" layoutX="79.0" layoutY="300.0" text="Adresse" />
+            <Label fx:id="mail" layoutX="79.0" layoutY="351.0" text="Adresse mail " />
+            <TextField fx:id="nom_aj" layoutX="229.0" layoutY="131.0" />
+            <TextField fx:id="prenom_aj" layoutX="229.0" layoutY="189.0" />
+            <TextField fx:id="adresse_aj" layoutX="229.0" layoutY="296.0" />
+            <TextField fx:id="mail_aj" layoutX="229.0" layoutY="347.0" />
+            <Button fx:id="ajouter_butt" layoutX="378.0" layoutY="450.0" mnemonicParsing="false" onAction="#ajouterUtilisateur" prefHeight="25.0" prefWidth="100.0" text="Ajouter" />
+            <PasswordField fx:id="mdp_aj" layoutX="229.0" layoutY="239.0" />
+            <Label layoutX="150.0" layoutY="594.0" prefHeight="17.0" prefWidth="587.0" />
+            <Button layoutX="533.0" layoutY="275.0" mnemonicParsing="false" onAction="#Upload" text="Upload" />
+            <ImageView fx:id="imv" fitHeight="150.0" fitWidth="200.0" layoutX="460.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

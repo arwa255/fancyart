@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="authentifier" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AuthentifierController">
+   <children>
+      <Button fx:id="authentifier_butt" layoutX="480.0" layoutY="253.0" mnemonicParsing="false" onAction="#authentifier" text="Authentifier" />
+      <Label fx:id="email_auth" layoutX="82.0" layoutY="82.0" text="Email" />
+      <TextField fx:id="email_field" layoutX="176.0" layoutY="78.0" />
+      <PasswordField fx:id="mdp_field" layoutX="176.0" layoutY="169.0" />
+      <Label fx:id="mdp_auth" layoutX="74.0" layoutY="173.0" text="Mote de passe" />
+      <Button fx:id="inscrire_butt" layoutX="400.0" layoutY="253.0" mnemonicParsing="false" text="S'inscrire" />
+      <Hyperlink layoutX="67.0" layoutY="242.0" onAction="#Oblier" text="mot de passe oblier ?" />
+   </children>
+</AnchorPane>
